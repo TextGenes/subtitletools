@@ -1,0 +1,10 @@
+3 convert timings in seconds
+Excel Formula
+add, extra column in front of speakers
+paste formula in columns left of the timings/subtitles (this references right neighbor), pull down for whole range 
+
+English formula (untested)
+=IFERROR(VALUE(MID(OFFSET(INDIRECT(ADDRESS(ROW(), COLUMN())), 0, 1), 1, 2)) * 3600 + VALUE(MID(OFFSET(INDIRECT(ADDRESS(ROW(), COLUMN())), 0, 1), 4, 2)) * 60 + VALUE(MID(OFFSET(INDIRECT(ADDRESS(ROW(), COLUMN())), 0, 1), 7, 2)), 0)
+
+German formula
+=IFERROR(VALUE(MID(OFFSET(INDIRECT(ADDRESS(ROW(); COLUMN())); 0; 1); 1; 2)) * 3600 + VALUE(MID(OFFSET(INDIRECT(ADDRESS(ROW(); COLUMN())); 0; 1); 4; 2)) * 60 + VALUE(MID(OFFSET(INDIRECT(ADDRESS(ROW(); COLUMN())); 0; 1); 7; 2)); 0)
