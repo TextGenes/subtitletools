@@ -21,7 +21,7 @@ https://github.com/joschkarick/the_week_scripts
 Credit: Joschka Rick
 
 
-The VBA scripts and formula here to be loaded/copied and applied in excel:
+The VBA scripts and formula here to be loaded/copied and run in excel:
 > 2 VBA speaker timings time format
 
 > 2b VBA speaker timings spacing
