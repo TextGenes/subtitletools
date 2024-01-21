@@ -17,6 +17,7 @@ https://github.com/joschkarick/the_week_scripts
 > subtitle + speaker timings => to voice-over script tool
 
 > 1 standard height subtitle (4 rows > 5 rows)
+
 Credit: Joschka Rick
 
 
